@@ -7,6 +7,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'MARV Unofficial Docs',
+      customCss: ['./src/styles/custom.css'],
       social: [
         {
           icon: 'github',
