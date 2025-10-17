@@ -3,13 +3,15 @@ title: ようこそ！
 description: MARV 非公式ドキュメントへようこそ
 ---
 
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
 MARV 非公式ドキュメントへようこそ！
 
 ## このドキュメントの目的
 
-MARVの公式ドキュメントは、様々な事情により情報が欠けていたり、古くなっていたりします。
+MARV の公式ドキュメントは、様々な事情により情報が欠けていたり、古くなっていたりします。
 
-その結果、新参プレイヤーはもちろん、ずっと前から遊び続けているユーザーでさえもMARVの仕様を理解していない場合が多いです。
+その結果、新参プレイヤーはもちろん、ずっと前から遊び続けているユーザーでさえも MARV の仕様を理解していない場合が多いです。
 
 このドキュメントは、欠けている情報を補うために作られました。
 
@@ -17,4 +19,19 @@ MARVの公式ドキュメントは、様々な事情により情報が欠けて�
 
 このドキュメントは[GitHub](https://github.com/ruka-64/marv-unofficial-docs/)で公開されています。
 
-私一人で全ての情報を収集し、まとめることは難しいです。あなたのPull Requestをお待ちしております！
+私一人で全ての情報を収集し、まとめることは難しいです。あなたの Pull Request をお待ちしております！
+
+## リンク
+
+<CardGrid>
+  <LinkCard
+    title="迷子ですか？"
+    href="https://marvgame.com/ja-JP/docs"
+    description="公式ドキュメントはこちら。"
+  />
+  <LinkCard
+    title="貢献する"
+    href="https://github.com/ruka-64/marv-unofficial-docs/pulls"
+    description="このドキュメントへのPRはこちらから。"
+  />
+</CardGrid>
