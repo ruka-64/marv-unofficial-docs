@@ -22,7 +22,7 @@ const newBadge: badgeT = {
 };
 
 const progressBadge: badgeT = {
-  text: '未執筆',
+  text: '執筆中',
   variant: 'danger',
 };
 
