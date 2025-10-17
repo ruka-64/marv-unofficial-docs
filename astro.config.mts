@@ -26,6 +26,11 @@ const progressBadge: badgeT = {
   variant: 'danger',
 };
 
+const keepUpdatedBadge: badgeT = {
+  text: '随時更新',
+  variant: 'tip',
+};
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [
@@ -44,6 +49,11 @@ export default defineConfig({
           label: 'ガイド',
           items: [
             // Each item here is one entry in the navigation menu.
+            {
+              label: '利用規約の補足',
+              slug: 'guides/tos',
+              badge: keepUpdatedBadge,
+            },
             {
               label: '国を作る・国に参加する',
               slug: 'guides/towny-join',
