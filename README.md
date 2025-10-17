@@ -1,49 +1,15 @@
-# Starlight Starter Kit: Basics
+# MARV 非公式ドキュメント
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+MARV 向け非公式ドキュメントのリポジトリです。
 
-```
-pnpm create astro@latest -- --template starlight
-```
+このドキュメントは Astro Starlight を使用して作成されました。
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ローカルで動かす
 
-## 🚀 Project Structure
+Node.js(`v16`以上)と pnpm(`v10.14.0`以上)が必要です。
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+以下の手順に従ってください:
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
-
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+1. このリポジトリをクローン (貢献する場合はフォークしてクローン)
+2. `pnpm i`で依存関係をインストール
+3. `pnpm dev`で開発用サーバー(Vite)を立ち上げ
