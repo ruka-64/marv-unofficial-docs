@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: 'MARV Unofficial Docs',
       social: [
         {
           icon: 'github',
@@ -20,6 +20,7 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: '国を作る・国に参加する', slug: 'guides/towny-join' },
+            { label: 'お金を稼ぐ', slug: 'guides/earn-money' },
           ],
         },
         {
