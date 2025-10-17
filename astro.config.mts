@@ -63,7 +63,7 @@ export default defineConfig({
             {
               label: '経験値関連のコマンド',
               slug: 'features/xpm',
-              badge: progressBadge,
+              badge: newBadge,
             },
             {
               label: '独自アイテム',
