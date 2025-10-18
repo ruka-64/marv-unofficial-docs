@@ -50,9 +50,9 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             {
-              label: '利用規約の補足',
-              slug: 'guides/tos',
-              badge: keepUpdatedBadge,
+              label: 'MGCへ加入する',
+              slug: 'guides/mgc',
+              badge: progressBadge,
             },
             {
               label: '国を作る・国に参加する',
