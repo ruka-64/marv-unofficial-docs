@@ -52,7 +52,7 @@ export default defineConfig({
             {
               label: 'MGCへ加入する',
               slug: 'guides/mgc',
-              badge: progressBadge,
+              badge: newBadge,
             },
             {
               label: '国を作る・国に参加する',
@@ -62,7 +62,6 @@ export default defineConfig({
             {
               label: 'お金を稼ぐ',
               slug: 'guides/earn-money',
-              badge: newBadge,
             },
           ],
         },
@@ -73,7 +72,6 @@ export default defineConfig({
             {
               label: '経験値関連のコマンド',
               slug: 'features/xpm',
-              badge: newBadge,
             },
             {
               label: '独自アイテム',
