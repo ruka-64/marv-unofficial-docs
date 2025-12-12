@@ -55,7 +55,7 @@ export default defineConfig({
               badge: newBadge,
             },
             {
-              label: '国を作る・国に参加する',
+              label: '町・国を作る(参加する)',
               slug: 'guides/towny-join',
               badge: progressBadge,
             },
