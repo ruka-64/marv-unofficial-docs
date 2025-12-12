@@ -41,7 +41,7 @@ export default defineConfig({
         {
           icon: 'github',
           label: 'GitHub',
-          href: 'https://github.com/withastro/starlight',
+          href: 'https://github.com/ruka-64/marv-unofficial-docs',
         },
       ],
       sidebar: [
