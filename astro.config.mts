@@ -74,8 +74,8 @@ export default defineConfig({
               slug: 'features/xpm',
             },
             {
-              label: '独自アイテム',
-              slug: 'features/items',
+              label: 'ペット',
+              slug: 'features/pet',
               badge: progressBadge,
             },
             {
