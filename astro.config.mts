@@ -52,7 +52,6 @@ export default defineConfig({
             {
               label: 'MGCへ加入する',
               slug: 'guides/mgc',
-              badge: newBadge,
             },
             {
               label: '町・国を作る(参加する)',
