@@ -79,8 +79,8 @@ export default defineConfig({
               badge: progressBadge,
             },
             {
-              label: 'レシピ',
-              slug: 'features/recipes',
+              label: 'お酒',
+              slug: 'features/brewery',
               badge: progressBadge,
             },
           ],
