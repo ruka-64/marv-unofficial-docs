@@ -27,3 +27,8 @@
   --sl-color-gray-7: #ecf9fd;
   --sl-color-black: #ffffff;
 }
+
+tr,
+td {
+  white-space: nowrap;
+}
