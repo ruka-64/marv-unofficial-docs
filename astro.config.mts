@@ -80,7 +80,7 @@ export default defineConfig({
             {
               label: 'お酒',
               slug: 'features/brewery',
-              badge: progressBadge,
+              badge: newBadge,
             },
           ],
         },
