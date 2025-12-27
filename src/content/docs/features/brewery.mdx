@@ -3,7 +3,13 @@ title: 醸造(お酒)
 description: ゲーム内だから、未成年もOK。
 ---
 
-import { Aside, Steps } from '@astrojs/starlight/components';
+import {
+  Aside,
+  Steps,
+  Tabs,
+  TabItem,
+  Card,
+} from '@astrojs/starlight/components';
 
 MARV は醸造プラグインを導入しており、プレイヤーがお酒やお菓子、飲み物を作ることができます！
 
@@ -40,21 +46,80 @@ MARV は醸造プラグインを導入しており、プレイヤーがお酒や
 
 ### 蒸留 - 醸造台
 
-執筆中
+通常の醸造台に、フィルターとしてグロウストーンを入れます。(フィルターは消費されません。)
+
+![image](/brewery-step2.avif)
 
 ### 熟成 - 樽・バレル
 
-#### 樽
+バレルは 3 種類あります。用途に応じて選びましょう！
 
-執筆中
+<Card title="作り方">
 
-#### 小型バレル
+<Tabs>
 
-執筆中
+<TabItem label="樽(通常)">
 
-#### 大型バレル
+スロット数: 6 スロット
 
-執筆中
+一番手間がかからない方法です。<br/>
+お酒をいれるだけで熟成できます。
+
+<Aside type="caution" title="注意！">
+
+この場合、どの木材で樽をクラフトした場合でもオーク材扱いになります！<br/>
+バレルの種類が指定されたお酒を醸造する際には注意してください。
+
+</Aside>
+
+</TabItem>
+
+<TabItem label="小型バレル">
+
+スロット数: 9 スロット
+
+木の階段 8 個で画像のように樽の形を作り、1 行目に`barrel`と書かれた看板を設置します。
+
+![image](/brewery-step3-1.avif)
+
+<details>
+<summary>断面図</summary>
+
+縦、横ともに 2 ブロックとなります。
+
+![image](/brewery-step3-1-cutted.avif)
+
+</details>
+
+</TabItem>
+
+<TabItem label="大型バレル">
+
+スロット数: 27 スロット
+
+木の階段 16 個、木材 18 個、フェンス 5 本を用意します。
+
+画像のように、足の上に樽を作り、栓をつけた後に 1 行目に`barrel`と書かれた看板を設置します。
+
+![image](/brewery-step3-2.avif)
+
+<details>
+<summary>断面図</summary>
+
+少し見にくいですが
+
+- 縦が 5 ブロック(樽 4 ブロック+栓 1 ブロック)
+- 横が 3 ブロックとなります。
+
+![image](/brewery-step3-2-cutted.avif)
+
+</details>
+
+</TabItem>
+
+</Tabs>
+
+</Card>
 
 ## つくってみよう
 
@@ -107,10 +172,6 @@ MARV は醸造プラグインを導入しており、プレイヤーがお酒や
 <Aside title="ご安心ください！">
   あなたが重度のアルコール中毒者でない限り、意識を失うことはありません。多分。
 </Aside>
-
-## 売ってみよう
-
-執筆中...
 
 ## レシピ一覧
 
