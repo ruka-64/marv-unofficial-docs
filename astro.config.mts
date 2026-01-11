@@ -72,6 +72,11 @@ export default defineConfig({
               label: 'お金を稼ぐ',
               slug: 'guides/earn-money',
             },
+            {
+              label: 'トラブルシューティング',
+              slug: 'guides/troubleshooting',
+              badge: newBadge,
+            },
           ],
         },
         {
