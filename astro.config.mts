@@ -52,10 +52,12 @@ export default defineConfig({
             {
               label: 'はじめての人へ',
               slug: 'guides/getting-started',
+              badge: newBadge,
             },
             {
               label: '仕様・用語集',
               slug: 'guides/glossary',
+              badge: newBadge,
             },
             {
               label: 'MGCへ加入する',
