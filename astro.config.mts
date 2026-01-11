@@ -50,6 +50,14 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             {
+              label: 'はじめての人へ',
+              slug: 'guides/getting-started',
+            },
+            {
+              label: '仕様・用語集',
+              slug: 'guides/glossary',
+            },
+            {
               label: 'MGCへ加入する',
               slug: 'guides/mgc',
             },
